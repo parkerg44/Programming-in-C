@@ -1,11 +1,12 @@
 /*
 Author: Parker Guillen
 2/04/18
-Description: PA 3, header file, function prototypes are listed along with include and define statement.
-CPTS 121
+Description: Lesson 3, header file, function prototypes are listed along with include and define statement.
 */
 
 #include "header.h"
+
+
 /*
 *Function name: read_double(FILE *infile)
 *Date: 2/8/18
@@ -15,10 +16,10 @@ CPTS 121
 *Preconditions: numnberd must be defined as a double, infile msut be open for reading
 *Post conditions: numberd must be defined as a double
 */
-double read_double(FILE *infile)
+double read_double(FILE *infile)		//* = pointer will be reviewed later
 {
 	double numberd = 0.0;
-	fscanf(infile, "%lf", &numberd);
+	fscanf(infile, "%lf", &numberd);	//fscanf used to read from a file in C
 	return numberd;
 
 }
@@ -209,3 +210,5 @@ double find_min(double number1, double number2, double number3, double number4, 
 	return min;
 
 }
+
+//End of Source file
