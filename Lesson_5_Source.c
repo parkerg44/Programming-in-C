@@ -1,9 +1,9 @@
 /*
 Author: Parker Guillen
 2/27/18
-Description: PA 5, function files, function prototypes are listed along with include and define statement.
-CPTS 121
+Description: Lesson 5, function files, function prototypes are listed along with include and define statement.
 */
+
 #include "header.h"
 
 
@@ -74,6 +74,8 @@ int roll_die(void)
 */
 int* roll_5_die(int dice5[])
 {	
+	
+	//How could this function be simplified?
 	int d1 = 0, d2 = 0, d3 = 0, d4 = 0, d5 = 0;
 	d1 = roll_die();		//Rolls all the five die
 	d2 = roll_die();
@@ -394,7 +396,7 @@ int add_points_check_selection(int player_points, int selection, int score[])
 		}
 	}
 
-	else if (selection == 9)
+	else if (selection == 9)	//How could this be minimized 
 	{
 		if (score[0] == 5 || score[0] == 3 && score[1] == 2 || score[0] == 3 && score[2] == 2 ||		//Every possible combination for a full house
 			score[0] == 3 && score[3] == 2 || score[0] == 3 && score[4] == 2 || score[0] == 3 && score[5] == 2 ||
