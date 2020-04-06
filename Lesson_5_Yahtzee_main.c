@@ -2,10 +2,9 @@
 Author: Parker Guillen
 2/27/18
 Description: The following function allows for a two player game of yahtzee, try it out!
-CPTS 121
 */
 
-#include "header.h"
+#include "Lesson_5_header.h"
 
 int main(void)
 {	//defining variables
