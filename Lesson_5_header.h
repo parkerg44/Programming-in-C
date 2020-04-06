@@ -1,9 +1,8 @@
-#ifndef ParkerGuillenPA5
+#ifndef ParkerGuillenLesson5
 #pragma once
 /*
 Author: Parker Guillen
-Description: PA 5, header file, function prototypes are listed along with include and define statement.
-Cpts 121
+Description: Lesson 5, header file, function prototypes are listed along with include and define statement.
 2/27/18
 */
 
@@ -12,7 +11,7 @@ Cpts 121
 #include <time.h> //time() 
 #include <stdlib.h>	//Rand and srand
 
-
+//function Definitions 
 void print_game_rules(void);
 int roll_die(void);
 int * roll_5_die(int dice5[]);
@@ -27,4 +26,4 @@ int player1final(int play1points);
 int player2fin(int player2p);
 
 
-#endif // !ParkerGuillenPA5
+#endif // !ParkerGuillenLesson5
