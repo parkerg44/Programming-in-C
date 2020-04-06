@@ -1,17 +1,19 @@
-#ifndef parker_guillen_pa3
+#ifndef parker_guillen_pa3    //More guard code 
 
 /*
 Author: Parker Guillen
-Description: PA#3, Header file includes function prototypes
-CPTS 121
+Description: Lesson 3, Header file includes function prototypes
 2/8/18
 */
 
-#pragma once
+#pragma once          //guard code 
 
+//Include statements 
 #include <stdio.h>		//Includes studio.h and math.h for use in main and other functions 
 #include <math.h>
+
 //Functions prototypes 
+
 double read_double(FILE *infile);
 int read_integer(FILE *infile);
 double calculate_sum(double number1, double number2, double number3, double number4, double number5);
