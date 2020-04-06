@@ -1,8 +1,7 @@
-#ifndef ParkerGuillenPA4
+#ifndef ParkerGuillenLesson4
 /*
 Author: Parker Guillen
-Description: PA 4, header file, function prototypes are listed along with include and define statement.
-Cpts 121
+Description:Lesson 4, header file, function prototypes are listed along with include and define statement.
 2/14/18
 */
 
@@ -31,7 +30,7 @@ double get_newwager(int success, double wager1, double bankbal);
 
 
 
-#endif // !ParkerGuillenPA4
+#endif // !ParkerGuillenLesson4
 
 
 
