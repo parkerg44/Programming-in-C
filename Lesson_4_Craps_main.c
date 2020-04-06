@@ -1,16 +1,15 @@
 /*
 Author: Parker Guillen
 2/19/18
-Description: PA 4: A game of craps, allows the user to play the die game craps.
-Collaborators: Andrew's code from class for rolling die and various other small pieces of code.
-CPTS 121
+Description: Lesson 4: A game of craps, allows the user to play the die game craps.
+Program a game of craps including a an ability to bet
 */
 #include "header.h"
 
 int main(void)
 {
 
-
+	//intialize variable 
 	double bankbalance = 0.0, wager = 0.0, bankbalancecurrent = 0.0, wager2=0.0;
 	int wager_in_limit = -1, die1 = 0, die2 = 0, sum = 0, win_loss_pointval = 0, wagertrue = 0, option = 0;
 
