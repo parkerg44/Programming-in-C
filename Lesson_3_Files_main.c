@@ -1,18 +1,16 @@
 /*
 Author: Parker Guillen
 2/4/18
-Description: PA 3: Scans in data from a student record file and finds many values such as sums, means, variances, standard deviation 
+Description: Lesson 3: Scans in data from a student record file and finds many values such as sums, means, variances, standard deviation 
 , min, and max and prints results to an outfile.
-Collaborators: Andrew's code from class for finding the max gpa.
-CPTS 121
 */
 
-#include "header.h"							//Includes the header file
-
+#include "Lesson_3_header.h"							//Includes the header file
+//How can this be done faster and less repetive
 
 int main(void)
 {
-	FILE*infile = NULL, *outfile = NULL;	//Sets infile and outfile to NULL
+	FILE*infile = NULL, *outfile = NULL;		//Sets infile and outfile to NULL
 	infile = fopen("input.dat", "r");		//Opens the file input.dat for reading as infile
 	outfile = fopen("output.dat", "w");		//Opens the file out.dat for writting as outfile
 
