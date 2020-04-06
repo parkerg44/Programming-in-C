@@ -1,7 +1,9 @@
 /* Author: Parker Guillen
 1/30/17
-Description: PA 2, Asks the user for many different values to be used in various equations through the use of functions.
-Collaborators: Professor's Fallons code from class for encoding character*/
+Description: Lesson 2, Asks the user for many different values to be used in various equations through the use of functions.
+Main.c is considered where the program starts 
+Review and attempt to use more functions to clear up the scanf and printf statements
+*/
 #include "equations.h"
 
 int main(void)
