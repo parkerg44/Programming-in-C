@@ -1,10 +1,10 @@
 /* Author: Parker Guillen
    1/20/17
    Description: PA 1, Asks the user for many different values to be used in various equations.
-   Collaborators: Professor's Fallons code from class for encoding character*/
+*/
 #include <stdio.h> //printf() and scanf()
 #include <math.h>
-#define PI 3.14159	// Defines PI as 3.14159
+#define PI 3.14159	// Defines PI as 3.14159 
 #define G 6.67e-11	// Defines G 6.67e-11
 int main(void)
 {
