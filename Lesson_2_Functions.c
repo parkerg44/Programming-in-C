@@ -1,9 +1,17 @@
 /*
 Author: Parker Guillen
 1/30/17
-Description: PA 2, equations.c file contains all the code for various functions called throughout main.
-Collaborators: Professor's Fallons code from class for encoding character*/
-#include "equations.h"		// Includes the header file(include-stdio-prototypes)
+Description: Lesson 2, In this lesson the use of Functions will be studied to provide reusable and more readable code
+Also the three file format is introduced, a file for the function bodies(source.c), one for the
+function defs and includes(header.h) and the final file for main where the actual program is excecuted(main.c)
+equations.c file contains all the code for various functions called throughout main.
+*/
+
+#include "Lesson_2_Functions.h"		// Includes the header file(include-stdio-prototypes)
+
+
+//Starting function Definitions
+
 /* 
 *Function name: calculate_newtons_2nd_law(mass,accel)
 *Date: 1/30/17
@@ -13,13 +21,13 @@ Collaborators: Professor's Fallons code from class for encoding character*/
 *Preconditions: mass and accel must be defined in main function 
 *Post conditions: Force is a double.
 */
-double calculate_newtons_2nd_law(double mass, double accel)
-{
-	double force = 0.0;
+double calculate_newtons_2nd_law(double mass, double accel) //mass and accel are called parameters 
+{							    //the double at the beginning of the functions 
+	double force = 0.0;				    //Tells us that this funtion will return a double
 	force = mass * accel;
 	return force;
-
 }
+
 
 /*
 *Function name: calculate_volume_cylinder(radius,height)
