@@ -1,8 +1,7 @@
 /*
 Author: Parker Guillen
 2/19/18
-Description: PA 4, function files, function prototypes are listed along with include and define statement.
-CPTS 121
+Description: Lesson 4, function files, function prototypes are listed along with include and define statement.
 */
 #include "header.h"
 
