@@ -1,12 +1,11 @@
 /*
 Author: Parker Guillen
 4/15/18
-Description: PA 8
-CPTS 121
+Description: Lesson 8
 */
 
 
-#include "Header.h"
+#include "Lesson_8_header.h"
 
 int main(void)
 {
