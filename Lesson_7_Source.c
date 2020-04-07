@@ -2,11 +2,11 @@
 Author: Parker Guillen
 2/27/18
 Description: Poker functions file 
-CPTS 121
 */
+//The main issue with these functions is speed, try and write an algorthim 
+//Which can determine all of the card combinations without the use of a large number of if/else 
 
-
-#include "Header.h"
+#include "Lesson_7_header.h"
 /*
 *Function name: void shuffle(int wDeck[][13])
 *Date: 4/4/17
