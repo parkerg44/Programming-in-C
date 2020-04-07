@@ -1,8 +1,7 @@
 /*
 Author: Parker Guillen
 4/4/18
-Description: 
-CPTS
+Description: Write a simple verison of the game poker using arrays for cards
 */
 
 #include "Header.h"
