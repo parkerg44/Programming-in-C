@@ -1,8 +1,7 @@
-#ifndef ParkerGuillenPA7
+#ifndef ParkerGuillen7
 /*
 Author: Parker Guillen
-Description: PA 5, header file, function prototypes are listed along with include and define statement.
-Cpts 121
+Description: Lesson 7, header file, function prototypes are listed along with include and define statement.
 2/27/18
 */
 
@@ -12,11 +11,11 @@ Cpts 121
 #include <time.h> //time() 
 #include <stdlib.h>	//Rand and srand
 
-typedef struct card
+typedef struct card			//introducing a struct a way to create a usable C data type
 {//Tracks card numbers
 	int cardr;
 	int cardc;
-}Card;
+}Card;					//struct card is now renamed Card
 
 
 
@@ -33,4 +32,4 @@ void redraw_cards_p1( Card hand[], const int wDeck[][13], const char *wFace[], c
 void dealer_draw_one(const int wDeck[][13], const char *wFace[], const char *wSuit[], Card hand[], int replacethiscard, int cardmun);
 void dealer_redraw(Card hand[], int pair, int twopair, int triple, int straight, int flush, int four, const char *wSuit[], const char *wFace[], const int wDeck[][13]);
 void print_cards(Card hand[], const int wDeck[][13], const char *wFace[], const char *wSuit[]);
-#endif // !ParkerGuillenPA7
+#endif // !ParkerGuillen7
