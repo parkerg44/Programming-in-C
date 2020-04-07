@@ -1,11 +1,10 @@
 /*
 Author: Parker Guillen
 3/28/18
-Description: PA 6, function files, functions are included
-CPTS 121
+Description: Lesson 6, function files, functions are included
 */
 
-#include "Header.h"
+#include "Lesson_6_header.h"
 
 /*
 *Function name: void start_screen()
