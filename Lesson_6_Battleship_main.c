@@ -6,7 +6,7 @@ Help: Andrew's code for printing and filling functions
 CPTS 121
 */
 
-#include "Header.h"
+#include "Lesson_6_header.h"
 
 int main(void)
 {
