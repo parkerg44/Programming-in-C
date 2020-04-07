@@ -1,10 +1,9 @@
-#ifndef PA6
+#ifndef Lesson6
 
 /*
 Author: Parker Guillen
 3/28/18
-Description: PA 6,  file, function prototypes are listed along with include and define statement.
-CPTS 121
+Description: Lesson 6,  file, function prototypes are listed along with include and define statement.
 */
 
 
@@ -39,4 +38,4 @@ void check_ship_sunk(int shotx, int shoty, int *c_hits, int *b_hits, int *r_hits
 int check_for_winner(int p1_hits, int comp_hits);
 void output_stats(Stats player, FILE*outfile);
 
-#endif //!PA6
+#endif //!Lesson6
