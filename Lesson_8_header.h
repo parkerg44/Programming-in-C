@@ -1,8 +1,7 @@
-#ifndef ParkerGuillenPA8
+#ifndef ParkerGuillenLesson8
 /*
 Author: Parker Guillen
-Description: PA 8, header file, function prototypes are listed along with include and define statement.
-Cpts 121
+Description: Lesson 8, header file, function prototypes are listed along with include and define statement.
 4/15/18
 */
 #include <stdio.h>
@@ -24,5 +23,5 @@ void maximum_occurences(char *str, int *integer, char *character, Occurences *oc
 
 
 
-#endif // !ParkerGuillenPA8
+#endif // !ParkerGuillenLesson8
 
