@@ -1,10 +1,10 @@
 /*
 Author: Parker Guillen
 4/15/18
-Description: PA 8 source files for functions
+Description: Lesson 8 source files for functions
 CPTS 121
 */
-#include "Header.h"
+#include "Lesson_8_header.h"
 
 /*
 
